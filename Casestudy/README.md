@@ -1,6 +1,6 @@
-### Case Study : Smart Watches
+# Case Study : Smart Watches
 
-# Block Diagram:
+## Block Diagram:
 
 
 ![CASESTUDY](https://user-images.githubusercontent.com/98867546/154832073-1a2e9fd0-c4b6-4de5-8652-24836dd9bc5b.png)
@@ -30,40 +30,40 @@ A smartwatch must be able to solve typical human issues in addition to having a 
 
 ## Component Discrpition
 
-# Power source
+### Power source
 The battery powers all of the devices, switches, and the microprocessor. A good battery is one that lasts a long time, can be recharged, and does not overheat or catch fire.
 
-# Power Buttons
+### Power Buttons
 Helps us in Switching on the device.
 
-# Controller 
+### Controller 
 Ensures that our system's functions are performed.
 
-# LCD
+### LCD
 They serve as a means of interaction with the user.
 
-# ADC 
+### ADC 
 Converts the Analog signal to Digital Signal.
 
-# Temperature Sensors
+### Temperature Sensors
 To determine the room's temperature.
 
-# Bluetooth
+### Bluetooth
 Bluetooth allows you to connect your watch to your phone. Your devices are now connected, and you'll see notifications from your smartphone on your watch's screen.
 
-# Sensors
+### Sensors
 Heartbeat and Step Measurement sensors: Smart watches and wrist-worn fitness trackers that helps in estimatation our heart rate as well as they keep a count of steps.
 
-# Accelerometer
+### Accelerometer
 Most smartwatches have accelerometers, which track whether you're walking, jogging, cycling, or sleeping by measuring how movement changes over time.
 
-# Biomems Sensors
+### Biomems Sensors
 These sesnors monitors pulse rate and Blood flow in our body.
 
 
-### V MODEL
+# V MODEL
 
-# Concept of operation
+## Concept of operation
 A smartwatch is a digital watch. The watch contains a small computer that runs on its own operating system. Smart watches allows us to perform actions by tapping or swiping on the screen. Modern smartwatches include several apps, similar to apps for smartphones and tablets.
 
 
