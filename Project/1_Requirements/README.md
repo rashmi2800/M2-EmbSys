@@ -16,7 +16,9 @@ Must be able to do things like: -
 ## Low Level Requirements
 Low level requirements must have
     -  Interface HC-SR04 (UltraSonic sensor) with Atmega8
+
     -  Interface LCD With Atmega8
+    
     -  Interface Buzzer with Atmega8
  
  ------------------------------------
