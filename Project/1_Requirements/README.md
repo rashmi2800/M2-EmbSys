@@ -14,7 +14,7 @@ Must be able to do things like: -
 -  When the distance between the ultrasonic sensor and the water is too short, the buzzer will sound.
 
 ## Low Level Requirements
-* Low level requirements must have
+Low level requirements must have
     -  Interface HC-SR04 (UltraSonic sensor) with Atmega8
     -  Interface LCD With Atmega8
     -  Interface Buzzer with Atmega8
@@ -24,7 +24,7 @@ Must be able to do things like: -
  ## Component Description
 
  ### Power Supply:
-- All devices, switches, and the microcontroller are powered by an external power supply.
+All devices, switches, and the microcontroller are powered by an external power supply.
 
 ### Microcontroller:
 Performs all of the operations that our system requires. Processes the signals received by the ultrasonic sensor to determine the distance between the object and the sensor.
@@ -33,7 +33,7 @@ Performs all of the operations that our system requires. Processes the signals r
 Ultrasonic signals are sent and received to determine the distance between the sensor and the item.
 
 ### LCD Display
-- 16*2 LCD Display is used to show warning also to print the distance in CM
+16*2 LCD Display is used to show warning also to print the distance in CM
 
 
 --------------------------------------
@@ -52,8 +52,8 @@ Ultrasonic signals are sent and received to determine the distance between the s
  ### Opportunities
  - Everyone uses it in their daily lives 
  -This benefit means that water level monitoring is commonly used in some of the following applications:
-Flood monitoring
-River level monitoring and many more
+- Flood monitoring
+- River level monitoring and many more
 
 ### Threats
 - Other sensors that are more efficient than the ultrasonic sensor can be utilised. 
@@ -61,10 +61,10 @@ River level monitoring and many more
 
 ## 4W's & 1H
 ### Who
-- A user who want to put distance between himself and the object in front of him.
+ A user who want to put distance between himself and the object in front of him.
 
 ### What
-- This is a utility application that uses the buzzer/LEDs to determine distance and also warn the user if the distance is too short.
+This is a utility application that uses the buzzer/LEDs to determine distance and also warn the user if the distance is too short.
 
 ### When 
 Seat belt notifier, door lock notifier, window notifier, water level detector, and many other applications are possible.
@@ -73,7 +73,7 @@ Seat belt notifier, door lock notifier, window notifier, water level detector, a
 This application can be used by anyone from any background to determine distance or verify if an object is present in front of him.
 
 ### How
-- Developed using C Language and implemented on SimulIDE.
+Developed using C Language and implemented on SimulIDE.
 
 
 
