@@ -6,7 +6,7 @@
 ## INTRUDUCTION
 Water level monitoring has several environmental benefits and is a common measurement for a variety of companies and organisations. Monitoring water flow can aid in the detection of prospective changes in water flow, as well as increased or decreased water volume levels, which may signal flow path modifications or warn of potential surface level floods.
 
--------------------------------------
+----------------------------------------------------------
 
 ## High Level Requirements
 Must be able to do things like: - 
@@ -24,16 +24,18 @@ Low level requirements must have
  ## Component Description
 
  ### Power Supply:
-All devices, switches, and the microcontroller are powered by an external power supply.
+All devices, switches, and the Arduino is powered by an external power supply.
 
-### Microcontroller:
+### Microcontroller(Arduino uno):
 Performs all of the operations that our system requires. Processes the signals received by the ultrasonic sensor to determine the distance between the object and the sensor.
 
 ### Ultra Sonic Sensor:
 Ultrasonic signals are sent and received to determine the distance between the sensor and the item.
 
-### LCD Display
-16*2 LCD Display is used to show warning also to print the distance in CM
+###  Buzzer
+The buzzer alerts when water level is high.
+
+
 
 
 --------------------------------------
@@ -41,7 +43,8 @@ Ultrasonic signals are sent and received to determine the distance between the s
 ## SWOT ANALYSIS
 
 ### Strengths
-- To show the distance between the object and the Ultrasonic sensor on the LCD screen - Simple to understand and use
+- To show the distance between the object(water) and the Ultrasonic sensor and alert using a buzzer 
+- Simple to understand and easy to setupu
 - Simple method to check whether the distance between the object and the Ultrasonic sensor is very small by turning on the buzzer 
 - Ultrasonic sensors are highly accurate and can detect small variations
 
@@ -50,7 +53,7 @@ Ultrasonic signals are sent and received to determine the distance between the s
  - Distance measurement is limited.
 
  ### Opportunities
- - Everyone uses it in their daily lives 
+ - Everyone can use it in their daily lives 
  -This benefit means that water level monitoring is commonly used in some of the following applications:
 - Flood monitoring
 - River level monitoring and many more
@@ -59,21 +62,26 @@ Ultrasonic signals are sent and received to determine the distance between the s
 - Other sensors that are more efficient than the ultrasonic sensor can be utilised. 
 - There are many other similar applications available.
 
+
+--------------------------------------------------------------------
+
 ## 4W's & 1H
 ### Who
- A user who want to put distance between himself and the object in front of him.
+Common people can use this to see the level of water in the tank to minimize the wastage of water.
+
 
 ### What
-This is a utility application that uses the buzzer/LEDs to determine distance and also warn the user if the distance is too short.
+This is a utility application that uses the buzzer to determine distance and also warn the user if the water level is very high.
 
 ### When 
-Seat belt notifier, door lock notifier, window notifier, water level detector, and many other applications are possible.
+Human can't watch continuously this system alerts them through buzzer.
+
 
 ### Where
 This application can be used by anyone from any background to determine distance or verify if an object is present in front of him.
 
 ### How
-Developed using C Language and implemented on SimulIDE.
+ Developed using Arduino UNO and implemented on SimulIDE.
 
 
 
