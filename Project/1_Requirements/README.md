@@ -1,7 +1,7 @@
 # WATER level ALERTING SYSTEM
 
  ## ABSTRACT 
- This project uses a microcontroller(Arduino uno), an ultrasonic sensor, and an LCD screen as an example of an embedded system. The ultrasonic sensor emits ultrasonic waves that are reflected back after colliding with an item in front of it. The distance between the sensor and the item is determined by the time it takes for the signals to bounce back.
+ This project uses a microcontroller(Arduino uno), an ultrasonic sensor, and an LED. This is an example of an embedded system. The ultrasonic sensor emits ultrasonic waves that are reflected back after colliding with an item in front of it. The distance between the sensor and the item is determined by the time it takes for the signals to bounce back.
 
 ## INTRUDUCTION
 Water level monitoring has several environmental benefits and is a common measurement for a variety of companies and organisations. Monitoring water flow can aid in the detection of prospective changes in water flow, as well as increased or decreased water volume levels, which may signal flow path modifications or warn of potential surface level floods.
@@ -10,13 +10,13 @@ Water level monitoring has several environmental benefits and is a common measur
 
 ## High Level Requirements
 Must be able to do things like: - 
--  Determine the distance between the ultrasonic sensor and the water in front of it and show it on a Lcd
--  When the distance between the ultrasonic sensor and the water is too short, the buzzer will sound.
+-  Determine the distance between the ultrasonic sensor and the water in front of it and show it on a LED.
+-  When the distance between the ultrasonic sensor and the water is too short, the LED will glow.
 
 ## Low Level Requirements
 Low level requirements must have
 -  Interface HC-SR04 (UltraSonic sensor) with Arduino uno
--  Interface LCD With Arduino uno
+-  Interface LED With Arduino uno
  -  Interface Buzzer with Arduino uno
  
  ------------------------------------
@@ -32,8 +32,8 @@ Performs all of the operations that our system requires. Processes the signals r
 ### Ultra Sonic Sensor:
 Ultrasonic signals are sent and received to determine the distance between the sensor and the item.
 
-###  Buzzer
-The buzzer alerts when water level is high.
+### LED 
+Indicates the user by turning on the light.
 
 
 
@@ -43,9 +43,9 @@ The buzzer alerts when water level is high.
 ## SWOT ANALYSIS
 
 ### Strengths
-- To show the distance between the object(water) and the Ultrasonic sensor and alert using a buzzer 
+- To show the distance between the object(water) and the Ultrasonic sensor and alert using a LED
 - Simple to understand and easy to setupu
-- Simple method to check whether the distance between the object and the Ultrasonic sensor is very small by turning on the buzzer 
+- Simple method to check whether the distance between the object and the Ultrasonic sensor is very small by turning on the LED 
 - Ultrasonic sensors are highly accurate and can detect small variations
 
  ### Weakness 
@@ -74,7 +74,7 @@ Common people can use this to see the level of water in the tank to minimize the
 This is a utility application that uses the buzzer to determine distance and also warn the user if the water level is very high.
 
 ### When 
-Human can't watch continuously this system alerts them through buzzer.
+Human can't watch continuously this system alerts them through LED.
 
 
 ### Where
