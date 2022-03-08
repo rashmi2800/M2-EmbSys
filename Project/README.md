@@ -1,4 +1,4 @@
-## WATER level ALERTING SYSTEM
+## WATER LEVEL ALERTING SYSTEM
 Water level monitoring has several environmental benefits and is a common measurement for a variety of companies and organisations. Monitoring water flow can aid in the detection of prospective changes in water flow, as well as increased or decreased water volume levels, which may signal flow path modifications or warn of potential surface level floods.
 
 
