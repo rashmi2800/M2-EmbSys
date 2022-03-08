@@ -81,7 +81,7 @@ Human can't watch continuously this system alerts them through LED.
 This application can be used by anyone from any background to determine distance or verify if an object is present in front of him.
 
 ### How
- Developed using Arduino UNO and implemented on SimulIDE.
+Developed using Arduino UNO and implemented on SimulIDE.
 
 
 
