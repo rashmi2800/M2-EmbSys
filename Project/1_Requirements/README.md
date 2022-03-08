@@ -1,4 +1,4 @@
-# WATER level ALERTING SYSTEM
+# WATER LEVEL  ALERTING SYSTEM
 
  ## ABSTRACT 
  This project uses a microcontroller(Arduino uno), an ultrasonic sensor, and an LED. This is an example of an embedded system. The ultrasonic sensor emits ultrasonic waves that are reflected back after colliding with an item in front of it. The distance between the sensor and the item is determined by the time it takes for the signals to bounce back.
