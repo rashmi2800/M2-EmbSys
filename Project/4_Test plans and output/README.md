@@ -2,7 +2,7 @@
 
 |Test ID|	Description	                                   |Exp I/P|	Exp O/P             |Actual Output	       |TypeOftest       |
 |-------|------------------------------------------------|-------|----------------------|----------------------|-----------------|
-|H_01   |Integrate Ultrasonicsensors with Microcontroller|None   |Successful Integration|successful Integration|Requirement based|
+|H_01   |Integrate Ultrasonicsensors with Microcontroller|  None |Successful Integration|successful Integration|Requirement based|
 |H_02   |Integrate LED with Microcontroller              |  None |Successful Integration|Successful Integration|Requirement based|
 
 
